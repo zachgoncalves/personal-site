@@ -1,0 +1,13 @@
+
+.jumbotron {
+    text-align: left;
+    padding: 2rem 0;
+    h2 {
+        font-family: 'Roboto Mono', monospace;
+        line-height: 5rem;
+        font-size: 3rem;
+        font-weight: bolder;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, rgb(255, 218, 130) 65%);
+        display: inline;
+    }
+}
