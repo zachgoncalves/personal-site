@@ -4,7 +4,7 @@ import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-ic
 
 const Navbar = props => {
     return (
-        <header className={`d-flex justify-content-between ${styles.site_header}`}>
+        <header className={`d-flex justify-content-between align-items-center ${styles.site_header}`}>
             <h1>Zachary Goncalves</h1>
             <ul className="nav">
                 <li className="nav-item">
