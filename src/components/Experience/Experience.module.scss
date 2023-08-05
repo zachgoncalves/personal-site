@@ -3,8 +3,31 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+.experience_entry {
+    margin: .25rem;
+    background: rgb(255, 218, 130) 65%;
+    border: 1px solid #000;
+    border-radius: 5px; 
+    max-width:900px;
+    width:100%;
+    height:auto;
+
+    &__header {
+        background:rgba(0,0,0,.1);
+        padding:1rem;
+        margin:0;
+        
+        p {
+            margin: 0;
+        }
+    }
+
+    &__body {
+        padding:.25rem;
+    }
+}
+
 .experience_list {
-    list-style: none;
     margin: 0;
     padding: 0;
 
@@ -13,17 +36,12 @@
         padding: 1rem 0 .25rem 0;
     }
 
-    ul {
-        list-style: none;
-        margin: 0; 
-        padding: 0;
-        li {
-            display: inline-block;
-            padding: .25rem .5rem;
-            margin: .25rem;
-            background: rgb(255, 218, 130) 65%;
-            border: 1px solid #000;
-            border-radius: 5px;
-        }
+    li {
+        display: block;
+        padding: .25rem .5rem;
+        margin: 1rem .25rem;
+        background: beige;
+        border-radius: 5px;
     }
+    
 }
